@@ -1,7 +1,7 @@
 import { Advertisement } from './advertisement'
 
 export let ADVERTISEMENTS: Advertisement[] = [
-  {image: "blank", adtext: "buy more shoes!"},
-  {image: "blank", adtext: "prosthetic foreheads!"},
-  {image: "blank", adtext: "bulk funnels cheap!"}
+  {image: "image.png", adtext: "buy more shoes!"},
+  {image: "image.png", adtext: "prosthetic foreheads!"},
+  {image: "image.png", adtext: "bulk funnels cheap!"}
 ]

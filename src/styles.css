@@ -16,3 +16,12 @@
   min-height: 190px;
   max-height: 190px;
 }
+
+.posting {
+  background-color: lightblue;
+}
+
+.advert {
+  background-color: pink;
+  margin: 5px;
+}

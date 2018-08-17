@@ -1,22 +1,22 @@
 <div class="container" *ngFor="let posting of postings">
   <div class="row">
-    <div class="col-sm-1">
+    <div class="col-sm-1 posting">
       {{ posting.id }}
     </div>
-    <div class="col-sm-1">
+    <div class="col-sm-1 posting">
       {{ posting.rank }}
     </div>
-    <div class="col-sm-1">
+    <div class="col-sm-1 posting">
       {{ posting.thumb }}
     </div>
-    <div class="col-md-6">
-      <div>
+    <div class="col-md-9 posting">
+      <div class="posting">
         <h3>{{ posting.title }}</h3>
       </div>
-      <div>
+      <div class="posting">
         <h5>{{ posting.description }}</h5>
       </div>
-      <div>
+      <div class="posting">
         <h6>{{ posting.details }}</h6>
       </div>
     </div>
