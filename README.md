@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Assignment Requiremets
+## Assignment Requirements
 
 Today, you should focus on planning your application and building and separating your application into components. If you have additional time, consider adding a pipe and jumping into next week's content
 
@@ -24,12 +24,14 @@ initial pass on specs--
 
 site: old Reddit
 
-all pages on site display col-md-9 + col-md-3
+all pages on site display col-md-9 + col-md-3 (need bootstrap)
 
 left 9:
 
+header component?
 display header across top 180px of page, posts listing below that
 
+postings component+
 display number to left of article
 display rank next to number
 display thumbnail next to rank
@@ -39,6 +41,7 @@ include # of comments, share save hide report below that
 
 right 3:
 
+right column component+
 fake 180px login box in upper right
 three ads below login section
 
