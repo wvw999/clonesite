@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+.nine {
+  min-width: 650;
+  max-width: 800;
+  min-height: 800;
+}
+
+.three {
+  min-width: 250;
+  max-width:300;
+  min-height: 800;
+}
