@@ -20,7 +20,32 @@ Tests using Jasmine and Protractor.
 
 ## SPECS
 
-none yet
+initial pass on specs--
+
+site: old Reddit
+
+all pages on site display col-md-9 + col-md-3
+
+left 9:
+
+display header across top 180px of page, posts listing below that
+
+display number to left of article
+display rank next to number
+display thumbnail next to rank
+display title/link next to thumbnail
+display description and keywords below title
+include # of comments, share save hide report below that
+
+right 3:
+
+fake 180px login box in upper right
+three ads below login section
+
+if there is time:
+
+add categories tabs to top of page, above header
+
 
 ## Development server
 
