@@ -15,6 +15,7 @@
 .jumbotron  {
   min-height: 220px;
   max-height: 220px;
+  background-color: #d24dff;
 }
 
 .posting {

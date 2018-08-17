@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { PostingComponent } from './posting/posting.component';
 import { AdsComponent } from './ads/ads.component';
+import { PostingDetailComponent } from './posting-detail/posting-detail.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AdsComponent } from './ads/ads.component';
     AppComponent,
     HeaderComponent,
     PostingComponent,
-    AdsComponent
+    AdsComponent,
+    PostingDetailComponent
   ],
   imports: [
     BrowserModule,
