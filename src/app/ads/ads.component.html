@@ -1,3 +1,3 @@
-<div class="container">
-  <p>I am an ad. Do not look at me</p>
+<div class="container" *ngFor="let advertisement of advertisements">
+  <img src="{{advertisement.image}}" alt="poop"> <br> <span>{{advertisement.adtext}}</span>
 </div>
