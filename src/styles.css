@@ -13,8 +13,8 @@
 }
 
 .jumbotron  {
-  min-height: 190px;
-  max-height: 190px;
+  min-height: 220px;
+  max-height: 220px;
 }
 
 .posting {
@@ -24,4 +24,8 @@
 .advert {
   background-color: pink;
   margin: 5px;
+}
+
+.logo {
+  float: right
 }
