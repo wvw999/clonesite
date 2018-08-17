@@ -11,3 +11,8 @@
   max-width:300;
   min-height: 800;
 }
+
+.jumbotron  {
+  min-height: 190px;
+  max-height: 190px;
+}

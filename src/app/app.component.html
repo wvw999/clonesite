@@ -1,18 +1,21 @@
+<span>{{ title }}</span>
 <div class="container">
   <div class="row">
-    <p>&nbsp;</p>
-    <span>{{ title }}</span>
-    <div class="col-md-9">
-      <span><app-header></app-header></span>
-      <span><app-posting></app-posting></span>
+    <div class="col-md-9 nine">
+      <div class="jumbotron">
+        <app-header></app-header>
+      </div>
+      <app-posting></app-posting>
     </div>
-    <div class="col-md-3">
-      <p>&nbsp;</p>
-      <h2>login box here</h2>
-      <button type="button" class="btn btn-danger">login</button>
-      <span><app-ads></app-ads></span>
+    <div class="col-md-3 three">
+      <div class="jumbotron">
+        <input type="text" name="login" value="">
+        <input type="text" name="password" value="">
+        <button type="button" class="btn btn-info" name="button">login</button>
+      </div>
+      <app-ads></app-ads>
     </div>
   </div>
 </div>
 
-<router-outlet></router-outlet>
+<!-- <router-outlet></router-outlet> -->
